@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d03375c335dfb64acd31aad20cce4b46",
+    "content-hash": "b546b5681c4424c86316a8b8e171f417",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -77,16 +77,16 @@
         },
         {
             "name": "dcblogdev/laravel-microsoft-graph",
-            "version": "v3.2.0",
+            "version": "v3.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dcblogdev/laravel-microsoft-graph.git",
-                "reference": "010762eaece789cec33e778436464a990ff9b833"
+                "reference": "9a1428f222fa7f19d2527483ba48243d812d3cd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dcblogdev/laravel-microsoft-graph/zipball/010762eaece789cec33e778436464a990ff9b833",
-                "reference": "010762eaece789cec33e778436464a990ff9b833",
+                "url": "https://api.github.com/repos/dcblogdev/laravel-microsoft-graph/zipball/9a1428f222fa7f19d2527483ba48243d812d3cd4",
+                "reference": "9a1428f222fa7f19d2527483ba48243d812d3cd4",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.9",
-                "orchestra/testbench": "^7.0|^8.0",
+                "orchestra/testbench": "^7.22",
                 "pestphp/pest": "^1.21",
                 "pestphp/pest-plugin-laravel": "^1.1",
                 "pestphp/pest-plugin-mock": "^1.0"
@@ -145,7 +145,7 @@
             ],
             "support": {
                 "issues": "https://github.com/dcblogdev/laravel-microsoft-graph/issues",
-                "source": "https://github.com/dcblogdev/laravel-microsoft-graph/tree/v3.2.0"
+                "source": "https://github.com/dcblogdev/laravel-microsoft-graph/tree/v3.1.9"
             },
             "funding": [
                 {
@@ -153,7 +153,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-25T07:11:24+00:00"
+            "time": "2023-02-15T01:54:23+00:00"
         },
         {
             "name": "doctrine/inflector",

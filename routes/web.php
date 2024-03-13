@@ -18,3 +18,7 @@ Route::group(['middleware' => ['web', 'guest']], function(){
 Route::get('login_form', function(){
     return view('login');
 });
+
+Route::get('home', function(){
+    return view('home');
+});

@@ -2,7 +2,7 @@
 
 namespace App\Listeners;
 
-use App\Models\User;
+use App\User;
 // use Dcblogdev\MsGraph\MsGraph;
 use Illuminate\Support\Facades\Auth;
 
@@ -10,7 +10,7 @@ use Dcblogdev\MsGraph\Models\MsGraphToken;
 
 class NewMicrosoft365SignInListener
 {
-    public function handle($event)
+    public static function handle($event)
     {
         if (!config('app.sso_enabled')) {
             abort(500, "Módulo No disponible");
